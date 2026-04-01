@@ -2,9 +2,13 @@ name: apk_release
 
 on: push
 
+permissions:
+  contents: write
+
 jobs:
   build_apk_release:
     runs-on: ubuntu-latest
+
 
     steps:
       - name: Checkout repo
@@ -18,8 +22,8 @@ jobs:
 
       - name: setup flutter
         uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable'
+#        with:
+#          channel: 'stable'
 
       - name: pub get
         run: flutter pub get
@@ -32,4 +36,4 @@ jobs:
         with:
           artifacts: 'build/app/outputs/flutter-apk/app-release.apk'
           tag: v1.0.${{ github.run_number }}
-#          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
