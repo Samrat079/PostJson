@@ -20,17 +20,13 @@ class SideBar01 extends StatelessWidget {
                   SizedBox(height: 12),
                   Text(
                     "Dummy Json App",
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
-                    ),
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                   ),
                 ],
               ),
             ),
 
             const Divider(),
-
 
             // 🔹 Centered Menu Items
             Column(
@@ -61,6 +57,17 @@ class SideBar01 extends StatelessWidget {
                     );
                   },
                 ),
+                // ListTile(
+                //   leading: const Icon(CupertinoIcons.settings),
+                //   title: const Text("Error"),
+                //   shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(10),
+                //   ),
+                //   onTap: () {
+                //     Navigator.pop(context);
+                //     Navigator.pushNamed(context, "/error");
+                //   },
+                // ),
               ],
             ),
 

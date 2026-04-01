@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/screens/Profile/Widget/ProfilePostCard.dart';
 
 import '../../../Models/Posts/Post.dart';
 import '../../../UnStructured/Widget/LoadingWidget.dart';
+import 'ProfilePostCard.dart';
 
 class ProfilePostBuilder extends StatelessWidget {
   final Future<List<UserPost>> getPost;

@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:untitled/Models/Posts/Post.dart';
 import 'package:untitled/Services/PostsServices/PostsServices.dart';
 import 'package:untitled/Services/UserPostServices/UserPostService.dart';
+import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
 import 'package:untitled/screens/HomePage/Widget/PostsFutureBuilder.dart';
 import 'package:untitled/screens/HomePage/Widget/SideBar01.dart';
-import 'package:untitled/screens/Profile/ProfilePage.dart';
 import 'package:untitled/screens/SearchDelegate/SearchDelegatePage.dart';
 
 import '../../Models/UserPost/UserPost.dart';
@@ -16,6 +16,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       drawer: SideBar01(),
       appBar: AppBar(
         actions: [
@@ -26,7 +27,9 @@ class Home extends StatelessWidget {
           ),
         ],
       ),
-      body: PostsFutureBuilder(getPost: UserPostService().getAllUserPost()),
+      body: GradientContainer01(
+        child: PostsFutureBuilder(getPost: UserPostService().getAllUserPost()),
+      ),
     );
   }
 }

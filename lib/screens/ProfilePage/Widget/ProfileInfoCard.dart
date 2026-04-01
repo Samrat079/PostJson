@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/screens/Profile/Widget/ProfileInfoListTile.dart';
 
 import '../../../Models/User/User.dart';
+import 'ProfileInfoListTile.dart';
 
 class Profileinfocard extends StatelessWidget {
   final User user;
