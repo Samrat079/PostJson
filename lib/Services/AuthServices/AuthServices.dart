@@ -78,7 +78,7 @@ class AuthServices {
     _auth = value;
   }
 
-  bool get isOnborded => _isOnborded ?? false;
+  bool get isOnborded => _isOnborded;
 
   Future<void> setOnboarded(bool value) async {
     _isOnborded = value;

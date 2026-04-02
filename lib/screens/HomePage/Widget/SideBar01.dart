@@ -57,25 +57,30 @@ class SideBar01 extends StatelessWidget {
                     );
                   },
                 ),
-                // ListTile(
-                //   leading: const Icon(CupertinoIcons.settings),
-                //   title: const Text("Error"),
-                //   shape: RoundedRectangleBorder(
-                //     borderRadius: BorderRadius.circular(10),
-                //   ),
-                //   onTap: () {
-                //     Navigator.pop(context);
-                //     Navigator.pushNamed(context, "/error");
-                //   },
-                // ),
-                // ListTile(
-                //   leading: const Icon(CupertinoIcons.settings),
-                //   title: Text("IsOnboarded: ${AuthServices().isOnborded}"),
-                //   shape: RoundedRectangleBorder(
-                //     borderRadius: BorderRadius.circular(10),
-                //   ),
-                //   onTap: () => AuthServices().switchOnboarded()
-                // ),
+
+                ///////////////////////               Error page               //////////////
+                ListTile(
+                  leading: const Icon(CupertinoIcons.settings),
+                  title: const Text("Error"),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.pushNamed(context, "/error");
+                  },
+                ),
+
+
+                /////////////            is onboarded          ////////////////////////
+                ListTile(
+                  leading: const Icon(CupertinoIcons.settings),
+                  title: Text("IsOnboarded: ${AuthServices().isOnborded}"),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  onTap: () => AuthServices().switchOnboarded()
+                ),
               ],
             ),
 

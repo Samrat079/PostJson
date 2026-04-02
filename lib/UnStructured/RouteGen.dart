@@ -22,9 +22,9 @@ class RouteGen {
 
     switch (name) {
       case '/':
-        // if (!isOnboarded) {
-        //   return MaterialPageRoute(builder: (_) => WelcomePage());
-        // }
+        if (!isOnboarded) {
+          return MaterialPageRoute(builder: (_) => WelcomePage());
+        }
         return MaterialPageRoute(builder: (_) => Home());
       case '/test_cred':
         return MaterialPageRoute(builder: (_) => TestCredentials());

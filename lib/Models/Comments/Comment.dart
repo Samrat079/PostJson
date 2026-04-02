@@ -3,7 +3,7 @@ import 'package:untitled/Models/Comments/Commentator.dart';
 class Comment {
   final int id, postId, likes;
   final String body;
-  final Commentator user; // contains username, fullname and id
+  final Commentator user;
 
   Comment({
     required this.id,
