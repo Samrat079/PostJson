@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:ffi';
 
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -14,6 +15,7 @@ class AuthServices {
   AuthServices._internal();
 
   Auth? _auth;
+  bool _isOnborded = false;
   final String _baseUrl = 'https://dummyjson.com/auth';
 
   Map<String, String> get headers {
@@ -49,9 +51,10 @@ class AuthServices {
     return _auth;
   }
 
-  Future<void> loadAuth() async {
+  Future<void> init() async {
     final prefs = await SharedPreferences.getInstance();
     String? jsonString = prefs.getString('auth_data');
+    _isOnborded = prefs.getBool('isOnboarded') ?? false;
 
     if (jsonString != null) {
       _auth = Auth.fromJson(jsonDecode(jsonString));
@@ -73,6 +76,23 @@ class AuthServices {
 
   set auth(Auth value) {
     _auth = value;
+  }
+
+  bool get isOnborded => _isOnborded ?? false;
+
+  Future<void> setOnboarded(bool value) async {
+    _isOnborded = value;
+
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('isOnboarded', value);
+  }
+
+  Future<void> switchOnboarded() async {
+    final temp = !_isOnborded;
+    _isOnborded = temp;
+
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool('isOnboarded', temp);
   }
 
   String? get token => _auth?.accessToken;

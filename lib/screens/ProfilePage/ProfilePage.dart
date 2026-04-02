@@ -7,6 +7,7 @@ import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
 import 'package:untitled/UnStructured/Widget/LoadingWidget.dart';
 
 import '../../Models/User/User.dart';
+import '../../Services/AuthServices/AuthServices.dart';
 import 'Widget/ProfileAvatar.dart';
 import 'Widget/ProfileInfoCard.dart';
 import 'Widget/ProfilePostBuilder.dart';
@@ -18,6 +19,8 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AuthServices().setOnboarded(true);
+
     return Scaffold(
       appBar: AppBar(title: Text("ProfilePage")),
       body: GradientContainer01(

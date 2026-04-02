@@ -154,6 +154,9 @@ class _LoginPage02State extends State<LoginPage02> {
 
                             //////////////////          Buttons        /////////////
                             SizedBox(height: 12),
+
+
+                            /////////////////          Login          //////////////
                             ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.redAccent,
@@ -176,14 +179,15 @@ class _LoginPage02State extends State<LoginPage02> {
                                   : const Text("Login"),
                             ),
 
+                            //////////////        Clear           /////////////////////
                             ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: Theme.of(
                                   context,
-                                ).colorScheme.secondaryContainer,
+                                ).colorScheme.onPrimaryContainer,
                                 foregroundColor: Theme.of(
                                   context,
-                                ).colorScheme.secondary,
+                                ).colorScheme.primaryContainer,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(12),
                                 ),

@@ -16,15 +16,14 @@ final ThemeData light = ThemeData(
   useMaterial3: true,
   colorScheme: lightScheme,
 
-  scaffoldBackgroundColor: lightScheme.surface,
-
   appBarTheme: AppBarTheme(
     backgroundColor: lightScheme.primaryContainer,
     foregroundColor: lightScheme.onSurface,
   ),
 
   cardTheme: CardThemeData(
-    color: lightScheme.surfaceContainerLow,
+    color: lightScheme.primaryContainer,
+    surfaceTintColor: lightScheme.primaryContainer,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
 
@@ -50,15 +49,14 @@ final ThemeData dark = ThemeData(
   useMaterial3: true,
   colorScheme: darkScheme,
 
-  scaffoldBackgroundColor: darkScheme.surface,
-
   appBarTheme: AppBarTheme(
     backgroundColor: darkScheme.primaryContainer,
     foregroundColor: darkScheme.onSurface,
   ),
 
   cardTheme: CardThemeData(
-    color: darkScheme.surfaceContainerLow,
+    color: darkScheme.primaryContainer,
+    surfaceTintColor: darkScheme.primaryContainer,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
 

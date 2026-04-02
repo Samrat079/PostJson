@@ -68,6 +68,14 @@ class SideBar01 extends StatelessWidget {
                 //     Navigator.pushNamed(context, "/error");
                 //   },
                 // ),
+                // ListTile(
+                //   leading: const Icon(CupertinoIcons.settings),
+                //   title: Text("IsOnboarded: ${AuthServices().isOnborded}"),
+                //   shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(10),
+                //   ),
+                //   onTap: () => AuthServices().switchOnboarded()
+                // ),
               ],
             ),
 
