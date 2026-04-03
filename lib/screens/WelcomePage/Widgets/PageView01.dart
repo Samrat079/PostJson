@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:post_json/screens/WelcomePage/Widgets/RichText01.dart';
 
 class PageView01 extends StatelessWidget {
   const PageView01({super.key});
@@ -19,44 +20,23 @@ class PageView01 extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              FaIcon(FontAwesomeIcons.fileCode, size: 124),
+              FaIcon(
+                FontAwesomeIcons.fileCode,
+                size: 124,
+                color: Theme.of(context).colorScheme.primary,
+              ),
               FaIcon(
                 FontAwesomeIcons.flutter,
                 size: 124,
-                color: Theme.of(context).colorScheme.tertiary,
+                color: Theme.of(context).colorScheme.secondary,
               ),
             ],
           ),
-          RichText(
-            textAlign: TextAlign.center,
-            text: TextSpan(
-              children: [
-                TextSpan(
-                  text: "Flutter ",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 40,
-                    color: Theme.of(context).colorScheme.tertiary,
-                  ),
-                ),
-                TextSpan(
-                  text: "Dummy Json",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 40,
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                ),
-                TextSpan(
-                  text: " demo",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 40,
-                    color: Theme.of(context).colorScheme.tertiary,
-                  ),
-                ),
-              ],
-            ),
+          RichText01(
+            string1: 'Flutter ',
+            string2: 'Dummy Json',
+            string3: ' Demo',
+            fontSize: 40,
           ),
           Divider(),
           Text(

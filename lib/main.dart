@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:post_json/UnStructured/RouteGen.dart';
 import 'package:post_json/UnStructured/Theme/ThemeData02.dart';
 import 'package:post_json/screens/HomePage/Home.dart';
@@ -6,8 +7,9 @@ import 'package:post_json/screens/HomePage/Home.dart';
 import 'Services/AuthServices/AuthServices.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   await AuthServices().init();
+  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   runApp(const MyApp());
 }
 

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:post_json/screens/WelcomePage/Widgets/RichText01.dart';
 
 import '../../../Services/AuthServices/AuthServices.dart';
 
@@ -16,38 +17,14 @@ class PageView03 extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         spacing: 36,
         children: [
-          SvgPicture.asset('Assets/Svg/Logo02.svg', width: 200, height: 200),
+          SvgPicture.asset('Assets/Svg/Logo03.svg', width: 256, height: 256),
+
           //////////      header text       ///////////////////
-          RichText(
-            textAlign: TextAlign.center,
-            text: TextSpan(
-              children: [
-                TextSpan(
-                  text: "Wanna have",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 32,
-                    color: Theme.of(context).colorScheme.tertiary,
-                  ),
-                ),
-                TextSpan(
-                  text: " a Look Around ? Let's ",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 32,
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                ),
-                TextSpan(
-                  text: "Get Started!!!",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 32,
-                    color: Theme.of(context).colorScheme.tertiary,
-                  ),
-                ),
-              ],
-            ),
+          RichText01(
+            string1: 'Wanna have',
+            string2: " a Look Around ? Let's ",
+            string3: 'Get Started!!!',
+            fontSize: 36,
           ),
 
           Divider(),
@@ -57,7 +34,6 @@ class PageView03 extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             spacing: 36,
             children: [
-
               Expanded(
                 child: ElevatedButton.icon(
                   onPressed: () {

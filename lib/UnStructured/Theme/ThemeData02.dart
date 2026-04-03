@@ -22,7 +22,7 @@ final ThemeData light = ThemeData(
   ),
 
   cardTheme: CardThemeData(
-    color: lightScheme.primaryContainer,
+    color: lightScheme.secondaryContainer,
     surfaceTintColor: lightScheme.primaryContainer,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
@@ -55,7 +55,7 @@ final ThemeData dark = ThemeData(
   ),
 
   cardTheme: CardThemeData(
-    color: darkScheme.primaryContainer,
+    color: darkScheme.secondaryContainer,
     surfaceTintColor: darkScheme.primaryContainer,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   ),
