@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:untitled/Models/Posts/Post.dart';
+import 'package:post_json/Models/Posts/Post.dart';
 
 import '../../../Models/UserPost/UserPost.dart';
 import '../../HomePage/Widget/PostFooter.dart';

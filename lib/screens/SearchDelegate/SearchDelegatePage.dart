@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/Services/PostsServices/PostsServices.dart';
-import 'package:untitled/Services/UserPostServices/UserPostService.dart';
-import 'package:untitled/Services/UserServices/UserServices.dart';
-import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
-import 'package:untitled/UnStructured/Widget/LoadingWidget.dart';
-import 'package:untitled/screens/SearchDelegate/Widget/NotFoundPage.dart';
-import 'package:untitled/screens/SearchDelegate/Widget/SuggestionTile.dart';
+import 'package:post_json/Services/PostsServices/PostsServices.dart';
+import 'package:post_json/Services/UserPostServices/UserPostService.dart';
+import 'package:post_json/Services/UserServices/UserServices.dart';
+import 'package:post_json/UnStructured/Theme/GradientContainer01.dart';
+import 'package:post_json/UnStructured/Widget/LoadingWidget.dart';
+import 'package:post_json/screens/SearchDelegate/Widget/NotFoundPage.dart';
+import 'package:post_json/screens/SearchDelegate/Widget/SuggestionTile.dart';
 
 class SearchDelegatePage extends SearchDelegate {
   @override

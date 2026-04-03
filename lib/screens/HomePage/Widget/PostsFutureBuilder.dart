@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/Services/UserPostServices/UserPostService.dart';
-import 'package:untitled/UnStructured/Widget/LoadingWidget.dart';
-import 'package:untitled/screens/HomePage/Widget/PostCard.dart';
-import 'package:untitled/screens/HomePage/Widget/PostFooter.dart';
-import 'package:untitled/screens/HomePage/Widget/PostTop.dart';
-import 'package:untitled/screens/HomePage/Widget/TagsRow.dart';
-import 'package:untitled/screens/HomePage/Widget/TitleAndBody.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/Services/UserPostServices/UserPostService.dart';
+import 'package:post_json/UnStructured/Widget/LoadingWidget.dart';
+import 'package:post_json/screens/HomePage/Widget/PostCard.dart';
+import 'package:post_json/screens/HomePage/Widget/PostFooter.dart';
+import 'package:post_json/screens/HomePage/Widget/PostTop.dart';
+import 'package:post_json/screens/HomePage/Widget/TagsRow.dart';
+import 'package:post_json/screens/HomePage/Widget/TitleAndBody.dart';
 
 import '../../../Models/Posts/Post.dart';
 import '../../../Services/PostsServices/PostsServices.dart';

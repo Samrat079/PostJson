@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:untitled/Models/Comments/Comment.dart';
+import 'package:post_json/Models/Comments/Comment.dart';
 
 class CommentsServices {
   static final CommentsServices _instance = CommentsServices._internal();

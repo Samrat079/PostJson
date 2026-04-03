@@ -20,7 +20,11 @@ class PageView01 extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               FaIcon(FontAwesomeIcons.fileCode, size: 124),
-              FaIcon(FontAwesomeIcons.flutter, size: 124),
+              FaIcon(
+                FontAwesomeIcons.flutter,
+                size: 124,
+                color: Theme.of(context).colorScheme.tertiary,
+              ),
             ],
           ),
           RichText(

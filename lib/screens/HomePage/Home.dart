@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/Posts/Post.dart';
-import 'package:untitled/Services/PostsServices/PostsServices.dart';
-import 'package:untitled/Services/UserPostServices/UserPostService.dart';
-import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
-import 'package:untitled/screens/HomePage/Widget/PostsFutureBuilder.dart';
-import 'package:untitled/screens/HomePage/Widget/SideBar01.dart';
-import 'package:untitled/screens/SearchDelegate/SearchDelegatePage.dart';
+import 'package:post_json/Models/Posts/Post.dart';
+import 'package:post_json/Services/PostsServices/PostsServices.dart';
+import 'package:post_json/Services/UserPostServices/UserPostService.dart';
+import 'package:post_json/UnStructured/Theme/GradientContainer01.dart';
+import 'package:post_json/screens/HomePage/Widget/PostsFutureBuilder.dart';
+import 'package:post_json/screens/HomePage/Widget/SideBar01.dart';
+import 'package:post_json/screens/SearchDelegate/SearchDelegatePage.dart';
 
 import '../../Models/UserPost/UserPost.dart';
 

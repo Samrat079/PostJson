@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/screens/PostPage/Widget/PostPageTop.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/screens/PostPage/Widget/PostPageTop.dart';
 
 import '../../../Models/Posts/Post.dart';
 import '../../HomePage/Widget/PostFooter.dart';

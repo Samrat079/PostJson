@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/screens/HomePage/Widget/TagsRow.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/screens/HomePage/Widget/TagsRow.dart';
 
 import '../../../Models/Posts/Post.dart';
 

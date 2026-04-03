@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
 
 import '../../../Models/Posts/Post.dart';
 import 'PostFooter.dart';

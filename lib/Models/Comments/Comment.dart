@@ -1,4 +1,4 @@
-import 'package:untitled/Models/Comments/Commentator.dart';
+import 'package:post_json/Models/Comments/Commentator.dart';
 
 class Comment {
   final int id, postId, likes;

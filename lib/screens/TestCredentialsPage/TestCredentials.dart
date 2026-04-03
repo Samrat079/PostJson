@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/User/User.dart';
-import 'package:untitled/Services/UserServices/UserServices.dart';
-import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
+import 'package:post_json/Models/User/User.dart';
+import 'package:post_json/Services/UserServices/UserServices.dart';
+import 'package:post_json/UnStructured/Theme/GradientContainer01.dart';
 
 import '../../Services/AuthServices/AuthServices.dart';
 import '../../UnStructured/Widget/LoadingWidget.dart';

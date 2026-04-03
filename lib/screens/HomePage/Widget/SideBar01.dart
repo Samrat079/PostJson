@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Services/AuthServices/AuthServices.dart';
+import 'package:post_json/Services/AuthServices/AuthServices.dart';
 
 class SideBar01 extends StatelessWidget {
   const SideBar01({super.key});
@@ -15,10 +15,10 @@ class SideBar01 extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 24),
               child: Column(
-                children: const [
-                  Icon(CupertinoIcons.news, size: 120),
-                  SizedBox(height: 12),
-                  Text(
+                children: [
+                  Image.asset('Assets/Images/Logo_128.png'),
+                  const SizedBox(height: 12),
+                  const Text(
                     "Dummy Json App",
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                   ),
@@ -59,28 +59,28 @@ class SideBar01 extends StatelessWidget {
                 ),
 
                 ///////////////////////               Error page               //////////////
-                ListTile(
-                  leading: const Icon(CupertinoIcons.settings),
-                  title: const Text("Error"),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  onTap: () {
-                    Navigator.pop(context);
-                    Navigator.pushNamed(context, "/error");
-                  },
-                ),
+                // ListTile(
+                //   leading: const Icon(CupertinoIcons.settings),
+                //   title: const Text("Error"),
+                //   shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(10),
+                //   ),
+                //   onTap: () {
+                //     Navigator.pop(context);
+                //     Navigator.pushNamed(context, "/error");
+                //   },
+                // ),
 
 
                 /////////////            is onboarded          ////////////////////////
-                ListTile(
-                  leading: const Icon(CupertinoIcons.settings),
-                  title: Text("IsOnboarded: ${AuthServices().isOnborded}"),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  onTap: () => AuthServices().switchOnboarded()
-                ),
+                // ListTile(
+                //   leading: const Icon(CupertinoIcons.settings),
+                //   title: Text("IsOnboarded: ${AuthServices().isOnborded}"),
+                //   shape: RoundedRectangleBorder(
+                //     borderRadius: BorderRadius.circular(10),
+                //   ),
+                //   onTap: () => AuthServices().switchOnboarded()
+                // ),
               ],
             ),
 

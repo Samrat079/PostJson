@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Services/PostsServices/PostsServices.dart';
-import 'package:untitled/Services/UserPostServices/UserPostService.dart';
-import 'package:untitled/Services/UserServices/UserServices.dart';
-import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
-import 'package:untitled/UnStructured/Widget/LoadingWidget.dart';
+import 'package:post_json/Services/PostsServices/PostsServices.dart';
+import 'package:post_json/Services/UserPostServices/UserPostService.dart';
+import 'package:post_json/Services/UserServices/UserServices.dart';
+import 'package:post_json/UnStructured/Theme/GradientContainer01.dart';
+import 'package:post_json/UnStructured/Widget/LoadingWidget.dart';
 
 import '../../Models/User/User.dart';
 import '../../Services/AuthServices/AuthServices.dart';
@@ -19,7 +19,6 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AuthServices().setOnboarded(true);
 
     return Scaffold(
       appBar: AppBar(title: Text("ProfilePage")),

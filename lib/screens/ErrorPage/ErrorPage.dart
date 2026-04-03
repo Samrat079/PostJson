@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
+import 'package:post_json/UnStructured/Theme/GradientContainer01.dart';
 
 class ErrorPage extends StatelessWidget {
   const ErrorPage({super.key});

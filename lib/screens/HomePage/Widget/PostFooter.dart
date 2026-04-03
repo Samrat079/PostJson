@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:untitled/Models/Posts/Post.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/screens/HomePage/Widget/PostLikeAndDislike.dart';
-import 'package:untitled/screens/HomePage/Widget/PostViews.dart';
+import 'package:post_json/Models/Posts/Post.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/screens/HomePage/Widget/PostLikeAndDislike.dart';
+import 'package:post_json/screens/HomePage/Widget/PostViews.dart';
 
 class PostFooter extends StatelessWidget {
   final Post post;

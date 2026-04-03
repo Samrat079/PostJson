@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Services/AuthServices/AuthServices.dart';
-import 'package:untitled/Services/UserServices/UserServices.dart';
+import 'package:post_json/Services/AuthServices/AuthServices.dart';
+import 'package:post_json/Services/UserServices/UserServices.dart';
 
 class ProfileAccountActionCard extends StatelessWidget {
   const ProfileAccountActionCard({super.key});

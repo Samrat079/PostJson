@@ -3,8 +3,8 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
-import 'package:untitled/Models/User/User.dart';
-import 'package:untitled/Services/AuthServices/AuthServices.dart';
+import 'package:post_json/Models/User/User.dart';
+import 'package:post_json/Services/AuthServices/AuthServices.dart';
 
 class UserServices {
   static final UserServices _instance = UserServices._internal();

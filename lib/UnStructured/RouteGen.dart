@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/Auth/Auth.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/Services/AuthServices/AuthServices.dart';
-import 'package:untitled/screens/ErrorPage/ErrorPage.dart';
-import 'package:untitled/screens/HomePage/Home.dart';
-import 'package:untitled/screens/LoginPage/LoginPage02.dart';
-import 'package:untitled/screens/PostPage/PostPage.dart';
-import 'package:untitled/screens/TestCredentialsPage/TestCredentials.dart';
-import 'package:untitled/screens/WelcomePage/WelcomePage.dart';
+import 'package:post_json/Models/Auth/Auth.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/Services/AuthServices/AuthServices.dart';
+import 'package:post_json/screens/ErrorPage/ErrorPage.dart';
+import 'package:post_json/screens/HomePage/Home.dart';
+import 'package:post_json/screens/LoginPage/LoginPage02.dart';
+import 'package:post_json/screens/PostPage/PostPage.dart';
+import 'package:post_json/screens/TestCredentialsPage/TestCredentials.dart';
+import 'package:post_json/screens/WelcomePage/WelcomePage.dart';
 
 import '../screens/ProfilePage/ProfilePage.dart';
 

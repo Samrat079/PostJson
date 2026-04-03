@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/UnStructured/Theme/GradientContainer01.dart';
-import 'package:untitled/screens/HomePage/Widget/PostCard.dart';
-import 'package:untitled/screens/HomePage/Widget/PostFooter.dart';
-import 'package:untitled/screens/PostPage/Widget/CommentsBuilder.dart';
-import 'package:untitled/screens/PostPage/Widget/PostDataSection.dart';
-import 'package:untitled/screens/PostPage/Widget/PostPageTop.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/UnStructured/Theme/GradientContainer01.dart';
+import 'package:post_json/screens/HomePage/Widget/PostCard.dart';
+import 'package:post_json/screens/HomePage/Widget/PostFooter.dart';
+import 'package:post_json/screens/PostPage/Widget/CommentsBuilder.dart';
+import 'package:post_json/screens/PostPage/Widget/PostDataSection.dart';
+import 'package:post_json/screens/PostPage/Widget/PostPageTop.dart';
 
 import '../../Models/Posts/Post.dart';
 import '../../Models/User/User.dart';

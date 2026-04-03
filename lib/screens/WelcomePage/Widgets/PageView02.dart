@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:untitled/UnStructured/Utils/UrlLauncher/UrlLauncher.dart';
+import 'package:post_json/UnStructured/Utils/UrlLauncher/UrlLauncher.dart';
 
 class PageView02 extends StatelessWidget {
   const PageView02({super.key});
@@ -71,11 +71,11 @@ class PageView02 extends StatelessWidget {
                   ),
                   IconButton(
                     onPressed: () => UrlLauncher.openUrl('https://leetcode.com/u/samrat079/'),
-                    icon: FaIcon(FontAwesomeIcons.linkedin),
+                    icon: FaIcon(FontAwesomeIcons.leetcode),
                   ),
                   IconButton(
                     onPressed: () => UrlLauncher.openUrl('https://www.linkedin.com/in/samrat079/'),
-                    icon: FaIcon(FontAwesomeIcons.leetcode),
+                    icon: FaIcon(FontAwesomeIcons.linkedin),
                   ),
                 ],
               ),

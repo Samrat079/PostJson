@@ -3,9 +3,9 @@ import 'dart:ffi';
 
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:untitled/Models/Auth/Auth.dart';
-import 'package:untitled/Models/User/User.dart';
-import 'package:untitled/screens/LoginPage/Exception/LoginException.dart';
+import 'package:post_json/Models/Auth/Auth.dart';
+import 'package:post_json/Models/User/User.dart';
+import 'package:post_json/screens/LoginPage/Exception/LoginException.dart';
 
 class AuthServices {
   static final AuthServices _instance = AuthServices._internal();

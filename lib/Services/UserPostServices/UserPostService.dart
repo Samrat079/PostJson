@@ -1,6 +1,6 @@
-import 'package:untitled/Models/UserPost/UserPost.dart';
-import 'package:untitled/Services/PostsServices/PostsServices.dart';
-import 'package:untitled/Services/UserServices/UserServices.dart';
+import 'package:post_json/Models/UserPost/UserPost.dart';
+import 'package:post_json/Services/PostsServices/PostsServices.dart';
+import 'package:post_json/Services/UserServices/UserServices.dart';
 
 import '../../Models/Posts/Post.dart';
 import '../../Models/User/User.dart';

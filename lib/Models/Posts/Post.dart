@@ -1,4 +1,4 @@
-import 'package:untitled/Models/Posts/Reactions.dart';
+import 'package:post_json/Models/Posts/Reactions.dart';
 
 class Post {
   final int id, views, userId;
