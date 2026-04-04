@@ -1,6 +1,6 @@
 # PostJson 📱
 
-<img width="512" height="512" alt="Logo_512" src="https://github.com/user-attachments/assets/3e634bab-54fd-45ba-acd8-9ffbfae49735" />
+<img width="128" height="114" alt="Logo_128" src="https://github.com/user-attachments/assets/4f893f9e-f6fb-45c9-9286-f81438521257" />
 
 ---
 ## 📖 Overview
