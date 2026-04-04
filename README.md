@@ -1,6 +1,7 @@
 # PostJson 📱
 
-https://github.com/Samrat079/PostJson/blob/master/Assets/Images/Logo_512.png
+<img width="512" height="512" alt="Logo_512" src="https://github.com/user-attachments/assets/3e634bab-54fd-45ba-acd8-9ffbfae49735" />
+
 ---
 ## 📖 Overview
 
