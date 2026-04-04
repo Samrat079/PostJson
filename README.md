@@ -132,11 +132,6 @@ All builds are available in the **Releases** section:
 
 ---
 
-## 📸 Screenshots
-
-
----
-
 ## 🧪 Try It Yourself
 
 The best way to understand this project is to **explore it hands-on**:
