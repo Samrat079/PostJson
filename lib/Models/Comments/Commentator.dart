@@ -12,7 +12,7 @@ class Commentator {
     return Commentator(
       id: json['id'],
       username: json['username'],
-      fullName: json['fullName'],
+      fullName: json['fullName'] ?? '',
     );
   }
 

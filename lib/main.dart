@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:post_json/UnStructured/RouteGen.dart';
 import 'package:post_json/UnStructured/Theme/ThemeData02.dart';
-import 'package:post_json/screens/HomePage/Home.dart';
 
 import 'Services/AuthServices/AuthServices.dart';
 

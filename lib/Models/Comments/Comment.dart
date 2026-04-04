@@ -17,9 +17,8 @@ class Comment {
     return Comment(
       id: json['id'],
       postId: json['postId'],
-      likes: json['likes'],
-      body: json['body'],
-      // user: json['user'],
+      likes: json['likes'] ?? 0,
+      body: json['body'] ?? '',
       user: Commentator.fromJson(json['user'])
     );
   }
